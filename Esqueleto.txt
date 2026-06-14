@@ -1,0 +1,45 @@
+automacao_docs/
+│
+├── ocr_module/
+│   └── ocr.py
+│
+├── doc_generator/
+│   └── generator.py
+│
+├── workflow/
+│   └── workflow.py
+│
+├── db/
+│   └── database.py
+│
+├── utils/
+│   └── helpers.py
+│
+frontend/
+│
+├── static/
+│   ├── css/
+│   │   ├── style_base.css        # estilos gerais usados por todas as páginas
+│   │   ├── style_upload.css      # estilos específicos da página de upload
+│   │   └── style_dashboard.css   # estilos específicos da página de dashboard
+│   │
+│   ├── js/
+│   │   ├── script_base.js        # scripts comuns (ex: navegação, alertas globais)
+│   │   ├── script_upload.js      # scripts da página de upload (preview, validação)
+│   │   └── script_dashboard.js   # scripts da página de dashboard (tabelas, filtros)
+│   │
+│   ├── img/
+│   │   └── logo.png              # logo do sistema
+│   │
+│   └── uploads/                  # arquivos enviados pelo usuário
+│       └── (vazia por padrão)
+│
+├── templates/
+│   ├── base.html                 # layout base (header, footer, bloco de conteúdo)
+│   ├── upload.html               # página de upload de documentos
+│   └── dashboard.html            # página de visualização dos documentos processados
+│
+└── app.py                        # aplicação Flask para rotas e integração
+│
+├── main.py
+└── requirements.txt

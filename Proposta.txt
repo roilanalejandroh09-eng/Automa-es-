@@ -1,0 +1,33 @@
+📌 Título da proposta  
+Automação Inteligente de Documentos para Eventos com Extração de Dados
+
+📅 Publicado: há 1 hora
+📩 Propostas recebidas: 7
+
+🎯 Objetivo do projeto
+Desenvolver uma solução de automação para preenchimento e gestão de documentos essenciais em eventos.
+
+🔧 O sistema deve:
+Extrair dados relevantes de documentos recebidos em formato de imagem (OCR).
+
+Preencher automaticamente modelos padrão (contratos, ordens de serviço, fichas de EPI e ASO).
+
+Facilitar a coleta de assinaturas digitais dos funcionários nos documentos preenchidos.
+
+📌 Requisitos
+Experiência com processamento de imagens e extração de dados.
+
+Desenvolvimento de sistemas de automação de fluxo de trabalho.
+
+Integração com sistemas de assinatura eletrônica (diferencial).
+
+🛠️ Tecnologias sugeridas
+Python
+
+Machine Learning (para OCR/NLP)
+
+Banco de Dados (SQL)
+
+REST API
+
+Data Mining
